@@ -1,3 +1,4 @@
+//given the body style
 body{
     background-color: black;
     color: white;
@@ -5,12 +6,13 @@ body{
    
 }
 
-
+// main container
 .Main-box{
     display: flex;
     justify-content: center;
 } 
 
+// all buttons 
 .btn {
     height: 200px;
     width: 200px;
@@ -18,6 +20,8 @@ body{
     border: 7px solid white;
     margin: 2rem;
 }
+
+// buttons color 
 
 .red{
     background-color: red;
